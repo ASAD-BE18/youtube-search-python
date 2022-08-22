@@ -13,4 +13,3 @@ __license__      = 'MIT'
 
 ''' Deprecated. Present for legacy support. '''
 from youtubesearchpython.legacy import SearchVideos, SearchPlaylists
-from youtubesearchpython.legacy import SearchVideos as searchYoutube
