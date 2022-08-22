@@ -1,5 +1,4 @@
 import copy
-import urllib.request
 import urllib.parse
 
 import re
