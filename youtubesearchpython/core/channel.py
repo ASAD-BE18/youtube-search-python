@@ -1,11 +1,10 @@
 import copy
-import json
 from typing import Union, List
 from urllib.parse import urlencode
 
 from youtubesearchpython.core.constants import *
 from youtubesearchpython.core.requests import RequestCore
-from youtubesearchpython.core.componenthandler import getValue, getVideoId
+from youtubesearchpython.core.componenthandler import getValue
 
 
 class ChannelCore(RequestCore):

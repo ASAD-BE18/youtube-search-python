@@ -1,10 +1,5 @@
-import collections
-import copy
-import itertools
 import json
 from typing import Iterable, Mapping, Tuple, TypeVar, Union, List
-from urllib.parse import urlencode
-from urllib.request import Request, urlopen
 
 from youtubesearchpython.core.componenthandler import getVideoId, getValue
 from youtubesearchpython.core.constants import *
